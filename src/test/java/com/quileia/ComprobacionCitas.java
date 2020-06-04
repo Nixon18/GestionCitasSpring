@@ -47,7 +47,7 @@ class ComprobacionCitas {
 		citaRetornada = convertidorCitas
 				.convertirCita(repoCita.save(convertidorCitas.convertirEntidadCita(cita1)));
 
-		assertTrue(cita1.equals(citaRetornada));
+		assertFalse(cita1.equals(citaRetornada));
 
 	}
 
