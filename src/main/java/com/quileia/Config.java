@@ -12,7 +12,7 @@ import com.quileia.model.Paciente;
 @Configuration
 public class Config {
 
-//hhh
+
 	@Bean
 	public Medico getMedico() {
 
