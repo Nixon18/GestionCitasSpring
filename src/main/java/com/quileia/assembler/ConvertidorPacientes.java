@@ -9,7 +9,7 @@ import com.quileia.model.Paciente;
 @Component
 public class ConvertidorPacientes {
 
-	public List<Paciente> convertirListaPacientes(List<EntidadPaciente> entidadPacientes) 
+	public List<Paciente> convertirListaPacientes(List<EntidadPaciente> entidadPacientes){
 		List<Paciente> pacientes = new ArrayList<>();
 
 		for (EntidadPaciente entidadPaciente1 : entidadPacientes) {
