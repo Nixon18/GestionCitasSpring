@@ -9,7 +9,7 @@ import javax.validation.constraints.NotNull;
 public class Cita {
 
 	private Integer registro;
-
+//
 	@NotNull(message = "campo requerido")
 
 	private String paciente;
