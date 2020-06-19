@@ -1,1 +1,1 @@
-INSERT INTO citas  VALUES (null, '001', '11', '11');
+INSERT INTO citas  VALUES ('001', '11', '11');

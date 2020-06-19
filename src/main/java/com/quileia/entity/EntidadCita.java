@@ -7,7 +7,7 @@ import javax.persistence.*;
 
 public class EntidadCita {
 
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@GeneratedValue(strategy = GenerationType.AUTO)
 	@Id
 	@Column(name = "Registro")
 	private Integer registroEntidad;

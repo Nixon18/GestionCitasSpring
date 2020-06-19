@@ -3,19 +3,18 @@ package com.quileia.model;
 import javax.validation.constraints.Max;
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotNull;
+import javax.xml.bind.annotation.XmlRootElement;
 
-
-
+@XmlRootElement
 public class Cita {
 
+	@NotNull(message = "campo requerido")
 	private Integer registro;
 
 	@NotNull(message = "campo requerido")
-
 	private String paciente;
 
 	@NotNull(message = "campo requerido")
-
 	private String medico;
 
 	@NotNull(message = "campo requerido")

@@ -7,17 +7,14 @@ import javax.xml.bind.annotation.XmlRootElement;
 public class Paciente extends Modelo {
 
 	@NotNull(message = "campo requerido")
-
 	private String fechaNacimiento;
 
 	@NotNull(message = "campo requerido")
 	@Size(min = 2, max = 20, message = "rango valido: 2 a 20 caracteres")
-
 	private String eps;
 
 	@NotNull(message = "campo requerido")
 	@Size(min = 10, max = 100, message = "rango valido: 10 a 100 caracteres")
-
 	private String historiaClinica;
 
 	public Paciente() {
