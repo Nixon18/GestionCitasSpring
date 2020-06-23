@@ -12,7 +12,7 @@ import com.quileia.model.Medico;
 import com.quileia.services.MedicoService;
 import com.quileia.services.ValidandoDatos;
 
-//@CrossOrigin(origins = "http://localhost:4200", maxAge = 3600)
+@CrossOrigin(origins = "http://localhost:4200", maxAge = 3600)
 @RestController
 @RequestMapping(path = "/medicos")
 public class ControladorMedicos {
